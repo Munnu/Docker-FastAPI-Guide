@@ -27,7 +27,7 @@ jobs:
       - name: Run pyright
         run: pyright
 
-build_and_push:
+  build_and_push:
     runs-on: ubuntu-latest
     steps:
       # --- NEW STEP TO GET LOWERCASE REPO NAME ---
